@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Curso de Verano HTML5
+		</title>
+			<style> 
+			 div#v {color: blue;}
+			 span {color: red;
+					font-size: 3em;}
+			 div.saludo {background: green;}
+			</style>
+			<script>
+				function saluda(element)
+				{	element.innerHTML="Qué tal estáis pasándolo?";
+					element.style.fontSize="3em";
+				}
+			</script>
+	</head>
+	
+	<body>
+	    <h1> Hooola </h1>
+		<div id="v"> Hola		</div>
+		<div onclick="saluda(this)" id="a" > Hola		</div>
+		<div id="v"> Hola		</div>
+		<div id="v" class="saludo"> Hola		</div>
+		<div class="saludo"> Hola	<span>Pepe </span>	</div>
+		<div> Bienvenidos al Curso <span> HTML5	</span>	</div>
+		
+		<!-- Esto es un comentario -->
+		<img src="link.jpg" alt="Imágen de Link héroe del juego Legend of Zelda"> <!-- No es necesario cerrar con </img>  -->
+	</body>
+
+</html>
